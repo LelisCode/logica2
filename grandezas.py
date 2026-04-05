@@ -35,7 +35,7 @@
 # Salvar o código como: grandezas.py
 
 
-
+#Tabela de escolha para o usuário automatizar seu cálculo de grandezas elétricas
 print("--------------------------------")
 print("CÁLCULO DE GRANDEZAS ELÉTRICAS")
 print("--------------------------------")
