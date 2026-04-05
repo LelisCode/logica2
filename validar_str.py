@@ -3,7 +3,7 @@
 s = input("Digite uma string: ")
 
 # Valor do vazio
-if s == "":
+if s == "":  #Item inválido por não conter texto
     print("Dado inválido")
 else:
     # Exibir o resultado
