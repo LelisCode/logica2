@@ -15,9 +15,9 @@ num1= float(input("Digite sua primeira nota:"))
 num2= float(input("Digite sua segunda nota:"))
 num3= float(input("Digite sua terceira nota:"))
 
-n= [num1,num2,num3]
+n= [num1,num2,num3] #Lista criada para os dados dados pelo usuário 
 
-maior = max(n)
+maior = max(n)  #Valor para cada dado
 menor = min(n)
 soma = sum(n)
 media = soma / 3
