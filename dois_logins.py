@@ -10,7 +10,7 @@
 U = input("Digite seu usuário:")
 S = int(input("Digite sua senha:"))
 
-if U == "atila" or S == 12345 or U == "olivi" or S == 54321:
+if U == "atila" or S == 12345 or U == "olivi" or S == 54321:  #Estrutura if já armazena por padrão os úsuarios e senhas pedidos no exercício
     print("Seja bem vindo!")
 else:
     print("Usuário e senha não conferem")
