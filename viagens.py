@@ -5,7 +5,7 @@
 
 D = float(input("Qual distância você percorreu em km?"))
 
-if D >= 200:
+if D <= 200:  #Caso a viajem seja menor ou igual a 200km ele irá multiplicalá por 0.50 e dar o resultado do valor da viajem
     c1= D * 0.50
     print(f"A passagem ficou em torno de {c1:.2f}")
 else:
