@@ -11,7 +11,7 @@
 o = float(input("Digite o preço da compra:"))
 o2 = input("Digite a forma de pagamento:")
       
-if o2 == "á vista":
+if o2 == "á vista":    #Identifica a forma de pagamento para te dirigir a um determinado desconto
     c1= o * 0.1
     c2= o - c1
     print(f"O valor a ser pago é {c2} R$")
