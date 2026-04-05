@@ -14,7 +14,8 @@
 comb = input("Tipo de combustível (A-Álcool / G-Gasolina): ").upper()
 lit = float(input("Quantos litros? "))
 
-if comb == "A":
+if comb == "A":   #Ao escolher A poder ter um if ou else que defina as opções dentro dele, o mesmo vale para G
+    
     preco_base = 5.00
     if lit <= 20:
         d = 0.03
