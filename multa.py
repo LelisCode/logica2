@@ -12,8 +12,8 @@ l = 80
 
 if v >= l :
 
- e= v-l
- m= e * 50
+ e= v-l  #Pela o valor da velocidade menos o limite de km
+ m= e * 50 #Pega o valor a mais do limite e o multiplica
  print(f"Você excedeu a velocidade, sua multa será de {m} R$")
 
 else:
